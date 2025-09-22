@@ -1,0 +1,25 @@
+# Intro To Arguments
+This challenge is about using a command with arguments,which is basically called additional data passed to commands.In this challenge we have to run the hello command
+with a single argument of hackers.
+
+## My Solve
+**Flag:** pwn.college{gECja5ZH-TiMcPKVJeTkxpFCndx.QX4YjM1wiM1kjNzEzW}
+
+Run the hello command with a single argument hacker to get the flag.
+
+```
+hacker@hello~intro-to-arguments:~$ hello hackers
+Success! Here is your flag:
+pwn.college{8yVf40kJCDaZBu31EvwbUtRcKrK.QX4YjM1wCMxAzNzEzW}
+```
+
+## What I Learned
+I learnt how a command can have multiple arguments and how we can have different outputs according the different arguments.Then I learnt about the echo command
+which basically "echoes" all of its arguments back out onto the terminal. 
+For example: 
+'''hacker@dojo:~$ echo Hello Hackers!
+Hello Hackers!
+'''
+
+## References
+None.
