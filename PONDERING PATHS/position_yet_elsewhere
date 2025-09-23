@@ -1,4 +1,6 @@
 # Position yet elsewhere 
+This challenge asks us to execute the /challenge/run program from a specific path(which a certain directory which it will tell us.
+And we'll have to cd the directory to find the path.
 
 
 ## My solve
