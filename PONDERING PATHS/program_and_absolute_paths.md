@@ -3,7 +3,7 @@ The challenge askes us to invoke the absolute path of the run directory where th
 
 
 ## My Solve
-**Flag:** 'pwn.college{sbckRxXhBIKgx_FIP8GeStpkquC.QX1QTN0wiM1kjNzEzW}'
+**Flag:** `pwn.college{sbckRxXhBIKgx_FIP8GeStpkquC.QX1QTN0wiM1kjNzEzW}`
 The challenge suggests that instead of running the brelative path or depending on the shell PATH, the challenge prompt highlights 
 that you must use its absolute path (`/challenge/run`) to invoke it.
 
