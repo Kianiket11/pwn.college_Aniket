@@ -1,13 +1,23 @@
-# Challenge Name
-type what the challenge asks
+# Position yet elsewhere 
+
 
 ## My solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{87JKjHboujRa1PtfQgGYTYHHAFD.QX4QTN0wiM1kjNzEzW}`
 
 type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for bash.
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+```
+hacker@paths~position-yet-elsewhere:~$ cd /home
+hacker@paths~position-yet-elsewhere:/home$ /challenge/run
+Incorrect...
+You are not currently in the /usr/aarch64-linux-gnu/include/gnu directory.
+Please use the `cd` utility to change directory appropriately.
+hacker@paths~position-yet-elsewhere:/home$ cd /usr/aarch64-linux-gnu/include/gnu
+hacker@paths~position-yet-elsewhere:/usr/aarch64-linux-gnu/include/gnu$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Here is your flag:
+pwn.college{87JKjHboujRa1PtfQgGYTYHHAFD.QX4QTN0wiM1kjNzEzW}
+
 ```
 
 ## What I learned
