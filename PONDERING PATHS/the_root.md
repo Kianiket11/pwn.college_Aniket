@@ -3,7 +3,7 @@ This challenge is the basic introduction to how we can access files in linux. He
 And all the other files branch out from here. In this challenge we just had to inko pwn in '/'.
 
 ## My Solve
-**Flag:** 'pwn.college{Acq5RwY-rMm6MkzHezmlm1Rovuj.QX4cTO0wiM1kjNzEzW}'
+**Flag:**  `pwn.college{Acq5RwY-rMm6MkzHezmlm1Rovuj.QX4cTO0wiM1kjNzEzW}`
 
 We just had to execute /pwn as it was given that the flag in the pwn directory which is in the root (/) directory.
 ```
