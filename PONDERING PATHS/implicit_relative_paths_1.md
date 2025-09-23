@@ -4,6 +4,7 @@ we need to tell Linux that we explicitly want to execute a program in the curren
 
 ## My solve
 **Flag:** `pwn.college{QCPx-cufSua_k-Px_0cWwTmsQIT.QXxUTN0wiM1kjNzEzW}`
+
 Now This challenge asks us to launch run using (.) and in this case our current working directory(cwd) was challenge. 
 So, Firstly i went into our cwd using cd /challenge. Now i used .challenge/run as forgot that i was already in the 
 challenge directory. I corrected my mistake and ran ./run as we need to use (.).
