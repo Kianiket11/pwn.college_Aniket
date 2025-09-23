@@ -1,4 +1,4 @@
-# Explicit Relative Paths
+# Explicit Relative Path, from /
 In this challenge we need to run /challenge/run using a relative path while having a current working directory of / but we have to use 
 . in our relative paths.
 
