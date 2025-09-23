@@ -1,17 +1,28 @@
-# Challenge Name
-type what the challenge asks
+# Implicit Relative Path
+In this challenge we need to explicitly use relative paths to launch run in this scenario.To do this
+we need to tell Linux that we explicitly want to execute a program in the current directory, using (.) .
 
 ## My solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{QCPx-cufSua_k-Px_0cWwTmsQIT.QXxUTN0wiM1kjNzEzW}`
+Now This challenge asks us to launch run using (.) and in this case our current working directory(cwd) was challenge. 
+So, Firstly i went into our cwd using cd /challenge. Now i used .challenge/run as forgot that i was already in the 
+challenge directory. I corrected my mistake and ran ./run as we need to use (.).
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for bash.
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+```
+hacker@paths~implicit-relative-path:~$ cd /challenge
+hacker@paths~implicit-relative-path:/challenge$ .challenge/run
+bash: .challenge/run: No such file or directory
+hacker@paths~implicit-relative-path:/challenge$ ./run
+Correct!!!
+./run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{QCPx-cufSua_k-Px_0cWwTmsQIT.QXxUTN0wiM1kjNzEzW}
 ```
 
 ## What I learned
-explain what you learned
+
+I learnt that if Linux searched the current directory for programs every time we entera naked path, we could 
+accidentally execute programs in our current directory that happened to have the same names as core system utilities.
 
 ## References 
-Add any references or videos u used while solving the challenge.
+None.
