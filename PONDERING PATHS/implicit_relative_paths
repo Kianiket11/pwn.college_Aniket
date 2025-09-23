@@ -1,4 +1,4 @@
-# Implicit relative paths
+# Implicit relative path, from /
 In this challeng we need to run /challenge/run using a relative path while having a current working directory of /. 
 Hint given: Your relative path starts with the letter c.
 
