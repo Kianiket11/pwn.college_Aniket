@@ -3,7 +3,7 @@ This challenge is about using a command with arguments,which is basically called
 with a single argument of hackers.
 
 ## My Solve
-**Flag:** pwn.college{gECja5ZH-TiMcPKVJeTkxpFCndx.QX4YjM1wiM1kjNzEzW}
+**Flag:** `pwn.college{gECja5ZH-TiMcPKVJeTkxpFCndx.QX4YjM1wiM1kjNzEzW}`
 
 Run the hello command with a single argument hacker to get the flag.
 
