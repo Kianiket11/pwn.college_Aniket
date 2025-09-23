@@ -1,17 +1,43 @@
-# Challenge Name
-type what the challenge asks
+# Explicit Relative Paths
+In this challenge we need to run /challenge/run using a relative path while having a current working directory of / but we have to use 
+. in our relative paths.
 
 ## My solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{k2Jk4g4UGd-ZQtMxwFxdaSd4Mna.QXwUTN0wiM1kjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for bash.
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+Now, as i started the challenge i had few things in mind firstly we had to enter the root directory(/).As it will be our working
+directory so i uded cd / to enter in it. Now the challenge suggests that we had to use . in our relative paths. As, nothing came 
+to my mind i started using the hit and try method and started to relate it to the previous challenge i did. But then after a hint 
+i got that we have to ./challenge/run (as it was mentioned in the starting of the challenge that we had to use . in our relative paths.
+
+```
+hacker@paths~explicit-relative-paths-from-:~$ cd /
+hacker@paths~explicit-relative-paths-from-:/$ ./challenge
+bash: ./challenge: Is a directory
+hacker@paths~explicit-relative-paths-from-:/$ ./
+bash: ./: Is a directory
+hacker@paths~explicit-relative-paths-from-:/$ challenge/run
+Incorrect...
+This challenge must be called with a relative path that explicitly starts with a `.`!
+hacker@paths~explicit-relative-paths-from-:/$ .challenge/run
+bash: .challenge/run: No such file or directory
+hacker@paths~explicit-relative-paths-from-:/$ .challenge
+bash: .challenge: command not found
+hacker@paths~explicit-relative-paths-from-:/$ ./challenge
+bash: ./challenge: Is a directory
+hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
+Correct!!!
+./challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{k2Jk4g4UGd-ZQtMxwFxdaSd4Mna.QXwUTN0wiM1kjNzEzW}
+
 ```
 
 ## What I learned
-explain what you learned
+i learnt that in the previous problem our relative path was "naked": it directly specified the directory to descend into from the current
+directory. I learnt that in most of the operating systems including linux there are two iplicit entries that we can reference in paths: 
+(.) and (..).  ., refers right to the same directory, so the following absolute paths are all identical to each other. while .. denotes the parent 
+directory (the directory that contains the current directory) and also allows you to move “up” in the directory tree.
 
 ## References 
 Add any references or videos u used while solving the challenge.
