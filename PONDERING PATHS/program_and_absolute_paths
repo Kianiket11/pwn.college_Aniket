@@ -1,0 +1,20 @@
+# Intro To Arguments
+
+
+## My Solve
+**Flag:** ''
+
+
+```
+hacker@paths~program-and-absolute-paths:~$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path! Here is your flag:
+pwn.college{sbckRxXhBIKgx_FIP8GeStpkquC.QX1QTN0wiM1kjNzEzW}
+hacker@paths~program-and-absolute-paths:~$ 
+
+```
+
+## What I Learned
+
+## References
+None.
