@@ -6,6 +6,7 @@ to check our histroy of commands where the flag is hidden.
 **Flag:** `pwn.college{spZ7dJWkomSyiYK7aJocCH0Jg9-.0lNzEzNxwiM1kjNzEzW}`
 
 We just have to use our up/down arrow keys to find the flag, as according to the challenge the flag is hidden in the history.
+
 ```
 hacker@hello~command-history:~$ here is your flag: pwn.college{spZ7dJWkomSyiYK7aJocCH0Jg9-.0lNzEzNxwiM1kjNzEzW}
 ```
