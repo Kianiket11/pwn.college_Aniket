@@ -1,4 +1,4 @@
-# Intro To Arguments
+# Intro To The Root
 This challenge is the basic introduction to how we can access files in linux. Here root is the top most directory of the entire filesystem,
 And all the other files branch out from here. In this challenge we just had to inko pwn in '/'.
 
