@@ -1,18 +1,30 @@
-# Challenge Name
-type what the challenge asks
+# Implicit relative paths
+In this challeng we need to run /challenge/run using a relative path while having a current working directory of /. 
+Hint given: Your relative path starts with the letter c.
 
 ## My solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{gVausVJdjMkWr1lnNrZ7MG9apZK.QX5QTN0wiM1kjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for bash.
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+Now as our current working directory for solving this challenge is /. Therefore, Firstly we need to enter the working directory
+/ using cd /. Now when i entered the working directory the next thing i did was run /challenge/run as i forgot that we had to use 
+the relative path but then afterwards i used challenge/run which is a relative path. 
+
+```
+hacker@paths~implicit-relative-paths-from-:~$ cd /
+hacker@paths~implicit-relative-paths-from-:/$ /challenge/run
+Incorrect...
+You invoked this challenge with an absolute path. This challenge needs a relative path!
+hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+Correct!!!
+challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{gVausVJdjMkWr1lnNrZ7MG9apZK.QX5QTN0wiM1kjNzEzW}
 ```
 
 ## What I learned
-explain what you learned
+This challenge reminded me the difference between absolute path and relative path.I also learnt that the relative path
+entirely depends upon out current working directory(cwd).
 
 ## References 
-Add any references or videos u used while solving the challenge.
+None.
 
