@@ -1,4 +1,4 @@
-# Match with *
+# Matching with *
 
 In this challenge we have to change our directory to /challenge, by using globbing to keep the argument we pass to cd 
 to at most four characters.
