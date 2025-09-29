@@ -1,9 +1,11 @@
 # Printing exported variables
 
+In this challenge we need to use the env command and search for the flag.
 
 ## My solve
 **Flag:** `pwn.college{kg4nwVJS1O0K-qclkoGSsAfMpFe.QX4UTN0wiM1kjNzEzW}`
 
+As given in the challege first we use the env command and then we can easily search for our flag.
 
 ```
 hacker@variables~printing-exported-variables:~$ env
@@ -28,6 +30,7 @@ _=/run/dojo/bin/env
 
 ## What I learned
 
+I learnt about the env command and how it prints out every exported variable set in our shell.
 
 ## References 
 None.
