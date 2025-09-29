@@ -2,12 +2,12 @@
 
 
 ## My solve
-**Flag:** ``
+**Flag:** `pwn.college{4OMesD1qgebm0WHAV4bwjRhZsFG.QX3UTN0wiM1kjNzEzW}`
 
 
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+```
+hacker@variables~printing-variables:~$ echo $FLAG
+pwn.college{4OMesD1qgebm0WHAV4bwjRhZsFG.QX3UTN0wiM1kjNzEzW}
 ```
 
 ## What I learned
