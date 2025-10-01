@@ -1,9 +1,13 @@
 # Deleting characters
 
+In this challenge there are some decoy characters (specifically: ^ and %) among the flag characters. We have to remove them in order to
+get the flag
 
 ## My solve
 **Flag:** `pwn.college{wcbcpkfBhBkkMywuLn_jhKjjbx5.0FNxEzNxwiM1kjNzEzW}`
 
+As the challenge suggests that there are some decoy characters specifically ^ and %. What we can do to remove them is use the tr
+command with -d which is used to delete characters that are given in the argument. Now i used "flag" | tr -d ^% to get the flag.
 
 ```
 hacker@data~deleting-characters:~$ /challenge/run
@@ -15,6 +19,7 @@ pwn.college{wcbcpkfBhBkkMywuLn_jhKjjbx5.0FNxEzNxwiM1kjNzEzW}
 
 ## What I learned
 
+I learnt that we can use tr command -d to delete characters.
 
 ## References 
 None.
