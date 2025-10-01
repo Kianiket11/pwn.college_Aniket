@@ -1,9 +1,13 @@
 # Sorting data
 
+In this challenge there's a file at /challenge/flags.txt containing 100 fake flags, with the real flag mixed among them. 
+When sorted alphabetically, the real flag will be at the end.
 
 ## My solve
 **Flag:** `pwn.college{c_cZipsLN8n5TuqjacFnJGw3qrT.0FM0MDOxwiM1kjNzEzW}`
 
+As given in the challenge that /challenge/flags.txt and we need to sort this file in alphabetical order in order to get the flag. We can use the sort command and by
+default it sorts data in alphabetical order and as given the flag will be at the bottom when the data is sorted alphabetical order. 
 
 ```
 hacker@data~sorting-data:~$ sort /challenge/flags.txt
@@ -112,6 +116,12 @@ pwn.college{c_cZipsLN8n5TuqjacFnJGw3qrT.0FM0MDOxwiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about the sort command and how we can use it to sort data as per out needs as we can use the following arguments to sort data in 
+our way :
+-r: reverse order (Z to A)
+-n: numeric sort (for numbers)
+-u: unique lines only (remove duplicates)
+-R: random order!
 
 ## References 
 None.
