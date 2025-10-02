@@ -1,9 +1,14 @@
 # Killing processes
 
+In this challenge /challenge/run will refuse to run while /challenge/dont_run is running. We have to 
+find the dont_run process and kill it.
 
 ## My solve
 **Flag:** `pwn.college{UlSl0JJXuUGjQpjGCf5V1ksf3F_.QXyQDO0wiM1kjNzEzW}`
 
+As given in the challenge /challenge/dont_run is running and we need to find dont_run process and kill it. Therefore, we 
+can just use ps -e | grep /challenge/dont_run to search for the procees and as we can see that the PID of the processes is
+136. Now, we can just use the kill command to kill the process.
 
 ```
 hacker@processes~killing-processes:~$ ps -e | grep /challenge/dont_run
@@ -25,6 +30,8 @@ pwn.college{UlSl0JJXuUGjQpjGCf5V1ksf3F_.QXyQDO0wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about the kill command which as the names suggests is used to kill any process that is running in the background. 
+But we need the PID of the process to kill it.
 
 ## References 
 None.
