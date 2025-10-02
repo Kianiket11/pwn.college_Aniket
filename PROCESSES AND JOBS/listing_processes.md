@@ -1,9 +1,13 @@
-# Challenge Name
+# Listing processes
 
-
+In this challenge /challenge/run is renamedto a random filename, and is made such that we cannot ls the /challenge 
+directory, But it is launched in the background. So we need to find it.
 ## My solve
 **Flag:** `pwn.college{gkfw--P8K4YGaKJd445n1bAlzZa.QX4MDO0wiM1kjNzEzW}`
 
+As given in the challenge the file /challenge/run is renamed and is running in background. Therefore, we can just 
+use ps -ef or ps aux to list all the processes running in our background. there we can see that /challenge/run is 
+renamed to /challenge/20654-run-21550.
 
 ```
 hacker@processes~listing-processes:~$ ps -ef
@@ -32,6 +36,8 @@ Now I will sleep for a while (so that you could find me with 'ps')
 
 ## What I learned
 
+I learnt about the ps command which lists the processes running in our terminal. I also learnt about the arguments
+-ef and aux these can be used to list every procees in our shell.
 
 ## References 
 None.
