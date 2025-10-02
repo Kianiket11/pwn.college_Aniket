@@ -185,7 +185,7 @@ pwn.college{AKk2aG8Z4iS4zv67UWhmvpVxf8H.0FNzMDOxwiM1kjNzEzW}
 
 ## What I learned
 
-Nothing new to learnt as this was just the practice of all commands from previous challenges combined into one. 
+Nothing new to learn as this was just the practice of all commands from previous challenges combined into one. 
 
 ## References 
 None.
