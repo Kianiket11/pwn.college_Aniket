@@ -1,9 +1,13 @@
 # Suspending processes
 
+In this challenge run wants to see another copy of itself running and using the same terminal. 
+
 
 ## My solve
-**Flag:** ``
+**Flag:** `pwn.college{IO00CGK_euZ1iMigvCzYVfhld2e.QX1QDO0wiM1kjNzEzW}`
 
+As the challenge suggests that run wants to see another copy of itself running we can do this by first suspending the 
+current run using ctrl + z and then running run again so that there is another copy of itself in the same terminal.
 
 ```
 hacker@processes~suspending-processes:~$ /challenge/run
@@ -36,6 +40,7 @@ pwn.college{IO00CGK_euZ1iMigvCzYVfhld2e.QX1QDO0wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt that we can suspend processes to the background with Ctrl-Z.
 
 ## References 
 None.
