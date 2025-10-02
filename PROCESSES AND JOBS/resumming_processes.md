@@ -1,9 +1,12 @@
 # Resuming processes
 
+In this challenge we need to suspend run and resume it.
 
 ## My solve
 **Flag:** `pwn.college{sODViDqQMlG8I_nRSI0jDpIsJr5.QX2QDO0wiM1kjNzEzW}`
 
+As the challenge suggests that we need to first run /challenge/run then we cna use ctrl + z to suspend it and then we can use
+fg /challenge/run to resume the process.
 
 ```
 hacker@processes~resuming-processes:~$ /challenge/run
@@ -22,6 +25,7 @@ Goodbye!
 
 ## What I learned
 
+I learn about the fg command which is a builin command that takes the suspended process and resumes it.
 
 ## References 
 None.
