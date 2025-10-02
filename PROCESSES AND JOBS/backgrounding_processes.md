@@ -1,9 +1,13 @@
 # Backgrounding processes
 
+In this challenge run wants to see another copy of itself running in the background
 
 ## My solve
 **Flag:** `pwn.college{gq1Ux98wnLCjTJySCB_dDeYKJYw.QX3QDO0wiM1kjNzEzW}`
 
+As the challenge suggests run wants another copy of itself running in the background, we can do this by first running /challenge/run
+then using  ctrl + z to suspend the process and then using bg /challenge/run to run the process in the background. Again, running
+/challenge/run to get the flag.
 
 ```
 hacker@processes~backgrounding-processes:~$ /challenge/run
@@ -47,6 +51,7 @@ pwn.college{gq1Ux98wnLCjTJySCB_dDeYKJYw.QX3QDO0wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about the bg command which can a run a process in the background.
 
 ## References 
 None.
