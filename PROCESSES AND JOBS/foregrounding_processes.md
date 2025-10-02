@@ -1,9 +1,12 @@
 # Foregrounding processes
 
+In this challenge we need to foreground run.  
 
 ## My solve
 **Flag:** `pwn.college{IUR4Ko3vQT2frkpZxd4l7bUvowc.QX4QDO0wiM1kjNzEzW}`
 
+As the challenge suggests that first we need to run /challenge/run then suspend this process and then run it in the background
+then again foreground the process to get the flag.
 
 ```
 hacker@processes~foregrounding-processes:~$ /challenge/run
@@ -32,6 +35,7 @@ pwn.college{IUR4Ko3vQT2frkpZxd4l7bUvowc.QX4QDO0wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about the fg command which is used to foreground a process.
 
 ## References 
 None.
