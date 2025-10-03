@@ -1,9 +1,12 @@
 # Cracking passwords
 
+In this challenge we will be given with a leak of /etc/shadow in /challenge/shadow-leak. We have to crack it and su to zardus, and run /challenge/run to get the flag
 
 ## My solve
 **Flag:** `pwn.college{0TrpY7UyCVTZ8AR0r41Nxbz0gjp.QX3UDN1wiM1kjNzEzW}`
 
+As given in the challenge we need to crack the password using john the ripper. After using we got the password as "aardvark", now 
+we can use this password to switch users to zardus and finally after running /challenge/run we got the flag.
 
 ```
 hacker@users~cracking-passwords:~$ cat /challenge/shadow-leak
@@ -50,6 +53,8 @@ pwn.college{0TrpY7UyCVTZ8AR0r41Nxbz0gjp.QX3UDN1wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about how passwords are cracked and also learnt how passwords are stored as hash and how we can use John the ripper.
+which is used to crack passwords.
 
 ## References 
 None.
