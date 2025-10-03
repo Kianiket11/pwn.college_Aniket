@@ -1,9 +1,13 @@
 # Using sudo
 
+In this challenge we'll be given sudo access and you we have to  use it to read the flag.
 
 ## My solve
 **Flag:** `pwn.college{c8yAbeJ15o0Fg5oe4D9uVFFproo.QX4UDN1wiM1kjNzEzW}`
 
+As given in the we need to find the flag using sudo. Now, what i did was i started searching for the flag randomly but  
+i wasn't able to find the flag. Then i started my search from root library in order to find the flag. Finally, I was
+able to find the flag in the root library.
 
 ```
 hacker@users~using-sudo:/$ sudo cat /challenge/run
@@ -22,6 +26,7 @@ pwn.college{c8yAbeJ15o0Fg5oe4D9uVFFproo.QX4UDN1wiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about sudo which meaans "substitute user, do". I learnt that sudo defaults to running a command as root.
 
 ## References 
 None.
