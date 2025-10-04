@@ -5,8 +5,9 @@ In this challenge we will be given with a leak of /etc/shadow in /challenge/shad
 ## My solve
 **Flag:** `pwn.college{0TrpY7UyCVTZ8AR0r41Nxbz0gjp.QX3UDN1wiM1kjNzEzW}`
 
-As given in the challenge we need to crack the password using john the ripper. After using we got the password as "aardvark", now 
-we can use this password to switch users to zardus and finally after running /challenge/run we got the flag.
+As given in the challenge that we are provided with a leak ok /etc/shadow.What we can use is John the ripper which is a tool 
+in linux, used for password cracking. After using this tool we got "aardvark" as the password for zardus, after this i used
+su to switch users to zardus. Finally, ran /challenge/run in order to get the flag.
 
 ```
 hacker@users~cracking-passwords:~$ cat /challenge/shadow-leak
