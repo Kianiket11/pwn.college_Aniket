@@ -1,9 +1,13 @@
 # Permission setting practice
 
+In this challenge we need to change the permissions like in the previous challenge but this challenge 
+requires more radical permission changes.
 
 ## My solve
 **Flag:** `pwn.college{wLiFgWAz3Zm-1ZjQB0Y6vEPts0e.QXzETO0wiM1kjNzEzW}`
 
+As given in the challenge that we need to change the permissions like we did earlier. Therefore, I used the same aprroach by
+using the octal notation for file permissions.
 
 ```
 hacker@permissions~permissions-setting-practice:~$ /challenge/run
@@ -228,6 +232,8 @@ pwn.college{wLiFgWAz3Zm-1ZjQB0Y6vEPts0e.QXzETO0wiM1kjNzEzW}
 
 ## What I learned
 
+learnt nothing new as this challenge was similar to the previous but got a stronger hold of concepts and this 
+challenge helped me practice what i learnt previously.
 
 ## References 
 None.
