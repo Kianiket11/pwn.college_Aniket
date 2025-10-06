@@ -17,7 +17,9 @@ pwn.college{4nV2Rrm3u0TTjn-7yAdO-MtDZRY.QXxcjM1wiM1kjNzEzW}
 ## What I learned
 
 I learnt about chgrp command which is basically the short form for change group, and as the name suggests this 
-command is used to change the ownership of a group.
+command is used to change the ownership of a group. I also learnt about the id command which can be used to check 
+what groups you are part of.
+
 
 ## References 
 None.
