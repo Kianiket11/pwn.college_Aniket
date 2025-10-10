@@ -1,9 +1,13 @@
 # Switching windows
 
+In this challenge, two screen sessions with two windows have been set up. We need to attach to the session then use one 
+of the key combinations to switch to Window 1.
 
 ## My solve
 **Flag:** `pwn.college{87v4B3Vqf8bTvbU7jOBFNciUlA_.0FO4IDOxwiM1kjNzEzW}`
 
+As the challenge suggests that there have been seesions setup. So i first attached to challenge_session and the used ctrl+ A and 
+0, to swith to window 0 and finally got the flag.
 
 ```
 hacker@terminal-multiplexing~switching-windows:~$ screen -ls
@@ -42,6 +46,7 @@ Here is your flag: pwn.college{87v4B3Vqf8bTvbU7jOBFNciUlA_.0FO4IDOxwiM1kjNzEzW}
 
 ## What I learned
 
+I learnt about the different keyboard shortcuts that can be used in screen session.
 
 ## References 
 None.
