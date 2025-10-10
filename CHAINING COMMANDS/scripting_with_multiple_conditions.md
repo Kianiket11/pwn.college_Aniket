@@ -1,9 +1,18 @@
 # Scripting with multiple conditions
 
+In this challenge we need to write a script at /home/hacker/solve.sh that:
+
+Takes one argument
+If the argument is "hack", output "the planet"
+If the argument is "pwn", output "college"
+If the argument is "learn", output "linux"
+For any other input, output "unknown"
+
 
 ## My solve
 **Flag:** `pwn.college{IyuhNOGuqHAyB0XkGWmaZIQCXcw.0FOzMDOxwiM1kjNzEzW}`
 
+As given in the challenge
 
 ```
 hacker@chaining~scripting-with-multiple-conditions:~$ nano /home/hacker/solve.sh
