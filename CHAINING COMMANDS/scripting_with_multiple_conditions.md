@@ -12,7 +12,7 @@ For any other input, output "unknown"
 ## My solve
 **Flag:** `pwn.college{IyuhNOGuqHAyB0XkGWmaZIQCXcw.0FOzMDOxwiM1kjNzEzW}`
 
-As given in the challenge
+As the challenge suggest I did the same thing as earlier but in the script added the conditionals needed and got the flag.
 
 ```
 hacker@chaining~scripting-with-multiple-conditions:~$ nano /home/hacker/solve.sh
