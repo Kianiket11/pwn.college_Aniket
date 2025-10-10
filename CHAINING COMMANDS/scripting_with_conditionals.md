@@ -2,9 +2,9 @@
 
 In this challenge we need to write a script at /home/hacker/solve.sh that:
 
-# Takes one argument
-# If the argument is "pwn", output "college"
-# For any other input, output nothing
+Takes one argument
+If the argument is "pwn", output "college"
+For any other input, output nothing
 
 ## My solve
 **Flag:** `pwn.college{Ap63BaoDxIHxWn8-OYmZpl5tdRa.0lNzMDOxwiM1kjNzEzW}`
