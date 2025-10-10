@@ -1,10 +1,13 @@
 # Adding commands
 
-In this challenge 
+In this challenge win does not exist. we need to make a shell script called win, and add its location to the PATH, 
+and enable /challenge/run to ge the flag.
 
 ## My solve
 **Flag:** `pwn.college{8N4R0dTvhYSIsQCfGX1DJrUJUIr.QX2cjM1wiM1kjNzEzW}`
 
+As given in the challenge i used nano to create a shell script and added !#/bin/bash read flag < /flag echo "$flag" to it.
+then i changed the permissions and lastly set the path to /home/hacker to finally get the flag.
 
 ```
 hacker@path~adding-commands:~$ nano win
@@ -27,6 +30,7 @@ pwn.college{8N4R0dTvhYSIsQCfGX1DJrUJUIr.QX2cjM1wiM1kjNzEzW}
 
 ## What I learned
 
+Learnt nothing new but this challenge helped me revise and practice what I learned previously.
 
 ## References 
 None.
