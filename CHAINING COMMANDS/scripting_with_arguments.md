@@ -1,8 +1,8 @@
 # Scripting with arguments
 
 In this challenge we need to write a script at /home/hacker/solve.sh that:
- # Takes two arguments
- # Outputs them in REVERSE order (second argument first, then the first argument)
+ Takes two arguments
+ Outputs them in REVERSE order (second argument first, then the first argument)
 
 ## My solve
 **Flag:** `pwn.college{EzFEQyejWdI-m9X9wKLwVPatfut.0VNzMDOxwiM1kjNzEzW}`
