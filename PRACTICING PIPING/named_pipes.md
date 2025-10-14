@@ -8,7 +8,7 @@ In this challenge we need to create a /tmp/flag_fifo file and redirect the stdou
 As given in the challenge i first created a fifo file using mkfifo then i redirected the output of /challenge/run to /tmp/flag_fifo
 (fifo which we made).
 
-```bash
+```
 hacker@piping~named-pipes:~$ mkfifo /tmp/flag_fifo
 hacker@piping~named-pipes:~$ /challenge/run > /tmp/flag_fifo
 You're successfully redirecting /challenge/run to a FIFO at /tmp/flag_fifo!
